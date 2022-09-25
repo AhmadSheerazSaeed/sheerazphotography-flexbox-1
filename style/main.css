@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 1rem;
+}
+
+/* logo  */
+.socialmedia-logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sheerazPhotographyLogo a img {
+  width: 100%;
+  height: 50px;
+}
+
+/* social media icons for the header and footer*/
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-square-instagram {
+  color: crimson;
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-square-instagram:hover {
+  color: black;
+}
+
+.socialMediaIcons {
+  margin-right: 7px;
+}
+
+/* navigation  */
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  list-style: none;
+  width: 100%;
+}
+
+nav ul li a {
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+nav ul li a span {
+  font-size: 1.5rem;
+}
+
+.span-nav-a {
+  color: crimson;
+}
+
+/* sizes of images */
+.imageSection {
+  width: 100%;
+  height: 450px;
+}
+
+/* first gallery section */
+.firstGallerySection {
+  margin-top: 30px;
+  background-image: url("../images/portrait/p6.jpg");
+  background-size: cover;
+}
+
+/* second gallery section */
+.secondGallerySection {
+  background-image: url("../images/city/c5.jpg");
+  background-size: cover;
+}
+
+/* third gallery section */
+.thirdGallerySection {
+  background-image: url("../images/nature/n6.jpg");
+  background-size: cover;
+}
+
+/* to display the text at the bottom of the gallery section */
+.firstGallerySection a,
+.secondGallerySection a,
+.thirdGallerySection a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-size: 5rem;
+}
+
+/* display the color of the text to match the background image */
+.secondGallerySection a,
+.thirdGallerySection a {
+  color: white;
+}
+
+/* footer section */
+.footer-section {
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-footer {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 451px) {
+  /* navigation  */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* first gallery section */
+  .firstGallerySection {
+    margin-top: 30px;
+    background-image: url("../images/portrait/p6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* second gallery section */
+  .secondGallerySection {
+    background-image: url("../images/city/c5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* third gallery section */
+  .thirdGallerySection {
+    background-image: url("../images/nature/n6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 769px) {
+  /* navigation  */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* first gallery section */
+  .firstGallerySection {
+    margin-top: 30px;
+    background-image: url("../images/portrait/p6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* second gallery section */
+  .secondGallerySection {
+    background-image: url("../images/city/c5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* third gallery section */
+  .thirdGallerySection {
+    background-image: url("../images/nature/n6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1025px) {
+  /* navigation  */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* first gallery section */
+  .firstGallerySection {
+    margin-top: 30px;
+    background-image: url("../images/portrait/p6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* second gallery section */
+  .secondGallerySection {
+    background-image: url("../images/city/c5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* third gallery section */
+  .thirdGallerySection {
+    background-image: url("../images/nature/n6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
