@@ -135,68 +135,10 @@ nav ul li a span {
   margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 451px) {
-  /* navigation  */
-  nav ul {
-    display: flex;
-    flex-direction: row;
-  }
+/* @media only screen and (max-width: 768px) and (min-width: 451px) { */
+/* navigation  */
 
-  /* first gallery section */
-  .firstGallerySection {
-    margin-top: 30px;
-    background-image: url("../images/portrait/p6.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  /* second gallery section */
-  .secondGallerySection {
-    background-image: url("../images/city/c5.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  /* third gallery section */
-  .thirdGallerySection {
-    background-image: url("../images/nature/n6.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
-  /* navigation  */
-  nav ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  /* first gallery section */
-  .firstGallerySection {
-    margin-top: 30px;
-    background-image: url("../images/portrait/p6.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  /* second gallery section */
-  .secondGallerySection {
-    background-image: url("../images/city/c5.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  /* third gallery section */
-  .thirdGallerySection {
-    background-image: url("../images/nature/n6.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
-@media only screen and (max-width: 1800px) and (min-width: 1025px) {
-  /* navigation  */
+@media only screen and (min-width: 451px) {
   nav ul {
     display: flex;
     flex-direction: row;
